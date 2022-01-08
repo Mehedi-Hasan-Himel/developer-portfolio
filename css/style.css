@@ -16,7 +16,7 @@ h1 {
 /* Color end */
 
 /* Section 1 & 2 start */
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -48,3 +48,7 @@ section {
 }
 /* Section 1 & 2 end */
 
+/* section-3 Experience area start */
+.experience__area {
+}
+/* section-3 Experience area end */
