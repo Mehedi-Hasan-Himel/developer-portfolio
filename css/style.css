@@ -70,5 +70,12 @@ h2 {
   padding-left: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
+  border-left: 7px solid #000;
+}
+#beginner__web--dev {
+  border-image: linear-gradient(rgb(0, 0, 255), aqua) 1;
+}
+#pro__web--dev {
+  border-image: linear-gradient(orange, tomato) 1;
 }
 /* section-3 Experience area end */
