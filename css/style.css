@@ -7,13 +7,16 @@ body {
 .orange__color {
   color: orange;
 }
+
 .blue__color {
   color: #19327a;
 }
+
 .half-width {
   width: 50%;
   padding-left: 7%;
 }
+
 .half-width img {
   width: 80%;
 }
@@ -21,71 +24,89 @@ body {
 h1 {
   font-size: 40px;
 }
+
 h2 {
   font-size: 35px;
 }
+
 .flexible-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 100px;
 }
+
 a {
   text-decoration: none;
-  color: ;
 }
+
 .link-button {
   text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(orange), to(tomato));
   background-image: linear-gradient(orange, tomato);
   padding: 10px 30px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
 }
+
 .link-button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(tomato), to(orange));
   background-image: linear-gradient(tomato, orange);
 }
-/* similar Code end */
 
-/* Section 1 Portfolio start*/
+/* similar Code end */
+/* Portfolio start*/
 .portfolio-section {
   background-image: url(/img/top-banner.png);
   background-repeat: no-repeat;
 }
-/* Section 1 Portfolio end*/
 
-/* Section 2 Dream Big start*/
+/*  Portfolio end*/
+/* Dream Big start*/
 .big-dream {
   background-image: url(/img/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
   padding-right: 7%;
 }
-/* Section 2 Dream Big end*/
 
-/* section-3 Experience area start */
+/* Dream Big end */
+/* Experience area start */
 .experience__area {
   background-image: url(/img/exp-bg.png);
   background-repeat: no-repeat;
 }
-.experience-item {
+
+.experience__area #pro__web--dev {
+  -o-border-image: linear-gradient(orange, tomato) 1;
+     border-image: -webkit-gradient(linear, left top, left bottom, from(orange), to(tomato)) 1;
+     border-image: linear-gradient(orange, tomato) 1;
+}
+
+.experience__area #beginner__web--dev {
+  -o-border-image: linear-gradient(blue, aqua) 1;
+     border-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(aqua)) 1;
+     border-image: linear-gradient(blue, aqua) 1;
+}
+
+.experience__area__item {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
   padding-left: 20px;
   border-radius: 10px;
-  box-shadow: 10px 10px 40px gray;
+  -webkit-box-shadow: 10px 10px 40px gray;
+          box-shadow: 10px 10px 40px gray;
   border-left: 7px solid #000;
 }
-#beginner__web--dev {
-  border-image: linear-gradient(rgb(0, 0, 255), aqua) 1;
-}
-#pro__web--dev {
-  border-image: linear-gradient(orange, tomato) 1;
-}
-/* section-3 Experience area end */
 
+/* Experience area end */
 footer p {
   text-align: center;
 }
-footer a:hover {
+
+footer p a:hover {
   color: tomato;
 }
+/*# sourceMappingURL=style.css.map */
